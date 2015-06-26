@@ -25,7 +25,7 @@
     "q-bluebird": "0.0.1",
     "request-promise": "^0.4.2",
     "socks5-https-client": "^1.1.0",
-    "node-telegram-bot" : "*"
+    "telegram-bot" : "*"
   },
   "devDependencies": {
     "coffee-script": "^1.9.3"

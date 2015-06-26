@@ -1,21 +1,30 @@
 _ = require 'lodash'
-Telegram = require 'node-telegram-bot'
+Telegram = require 'telegram-bot'
 
 tg = new Telegram('116265847:AAFfQunaAJyFl9gxoXk69OTi5zii2E1eDeg')
 sessions = {}
 
+textToUser = (chat_id, message) ->
+  tg.sendMessage
+    text: message
+    chat_id: chat_id
+
 map =
 
   help: (msg) ->
-    text: """
-      /random - Gera um número random
-      /help - Sobre a Ritsuko
-    """
+    text = """
+          O grandioso bot maker star possui os seguintes comandos:
+
+          /help - Mostra essa magnifica lista
+          /random - Gera um número aleatório. Patético, eu sei.
+          """
+    textToUser msg.chat.id, text
 
   random: (msg) ->
     randomNumber = _.shuffle([0..9]).slice(0, 4).join("")
+    console.log randomNumber
     msg.reply
-      text: "Número gerado é: #{{randomNumber}}"
+      text: "Número gerado é: #{randomNumber}"
 
 tg.on 'message', (msg) ->
   console.log "#{msg.date} #{msg.from.username}: #{msg.text}"
