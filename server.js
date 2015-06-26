@@ -6,7 +6,7 @@
 
   Telegram = require('telegram-bot');
 
-  tg = new Telegram('116265847:AAFfQunaAJyFl9gxoXk69OTi5zii2E1eDeg');
+  tg = new Telegram(SUA_CHAVE_AQUI);
 
   sessions = {};
 
