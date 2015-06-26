@@ -1,5 +1,5 @@
 _ = require 'lodash'
-Telegram = require 'telegram-bot'
+Telegram = require 'node-telegram-bot'
 
 tg = new Telegram('116265847:AAFfQunaAJyFl9gxoXk69OTi5zii2E1eDeg')
 sessions = {}
