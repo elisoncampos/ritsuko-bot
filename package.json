@@ -1,7 +1,7 @@
 {
-  "name": "OpenShift-Sample-App",
+  "name": "RitsukoBot",
   "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "description": "Bot maker star",
   "keywords": [
     "OpenShift",
     "Node.js",
@@ -9,27 +9,28 @@
     "openshift"
   ],
   "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+    "name": "Elison de Campos",
+    "email": "elison.campso@gmail.com"
   },
-  "homepage": "http://www.openshift.com/",
   "repository": {
     "type": "git",
     "url": "https://github.com/openshift/origin-server"
   },
-
   "engines": {
     "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
   },
-
   "dependencies": {
-    "express": "~3.4.4"
+    "lodash": "^3.9.3",
+    "q-bluebird": "0.0.1",
+    "request-promise": "^0.4.2",
+    "socks5-https-client": "^1.1.0",
+    "node-telegram-bot" : "*"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  },
   "bundleDependencies": [],
-
   "private": true,
   "main": "server.js"
 }
