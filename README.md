@@ -5,7 +5,7 @@ O Bot para chats do telegram mais glorioso do Brasil, e porque não dizer, do mu
 * /help - Mostra essa magnifica lista.
 * /random - Gera um número aleatório. Patético, eu sei.
 
-** Mais comandos em breve! Nós prometemos! **
+**Mais comandos em breve! Nós prometemos!**
 
 ## Contribuindo
 Caso você deseja contribuir para com o projeto, seja implementando uma nova funcionalidade, corrigindo e/ou reportando algum erro, ou até mesmo se deseja sugerir (pedir) uma nova funcionalidade, por favor siga estas instruções básicas:
@@ -47,7 +47,7 @@ Brincadeira, vou dar a boa sim. Antes de tudo, você precisa espeficiar a chave 
 tg = new Telegram(SUA_CHAVE_AQUI);
 ```
 
-** Se você prefere coffeescript, tem o server.coffee tb, mas não coloquei nenhum processo de auto compilação até agora. Tem que ver que eu tava com muita preguiça quando fiz isso né **
+**Se você prefere coffeescript, tem o server.coffee tb, mas não coloquei nenhum processo de auto compilação até agora. Tem que ver que eu tava com muita preguiça quando fiz isso né**
 
 É só trocar o _SUA_CHAVE_AQUI_ por sua chave e se ligar como eu faço as coisas. Para este projeto eu utilizei o módulo npm [node-telegram-bot](https://github.com/orzFly/node-telegram-bot). Recomendo ver lá que você encontra mais projetos. Aliás, esse bot mesmo é só seguindo um exemplo que o cara deu. Patético, né?
 
