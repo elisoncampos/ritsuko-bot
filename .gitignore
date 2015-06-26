@@ -4,6 +4,7 @@ Thumbs.db
 .DS_Store
 config.codekit
 .idea
+.openshift
 
 # Logs
 logs
